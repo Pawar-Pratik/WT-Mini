@@ -1,0 +1,44 @@
+body{
+    background: linear-gradient(to bottom, #68EACC 0%, #497BE8 100%);
+}
+.container {
+    padding: 20px 300px;
+    background: linear-gradient(to bottom, #68EACC 0%, #497BE8 100%);
+}
+
+input[type=text],
+input[type=password],
+textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border-radius: 15px;
+    border: none;
+    background: #f1f1f1;
+}
+
+div {
+    padding: 10px 0;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.registerbtn {
+    background-color: #451f63;
+    border-radius: 15px;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}

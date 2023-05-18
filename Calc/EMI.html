@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <title>Loan Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+  
+<body>
+    <div class="calculator">
+        <h1>EMI Calculator</h1>
+  
+        <!-- Calling Calculate function defined in app.js -->
+        <p>Loan Amount (₹)     :
+            <input id="amount" type="number">
+        </p>
+  
+        <p>Interest Rate  :
+            <input id="rate" type="number">
+        </p>
+  
+        <p>Months to Pay :
+            <input id="months" type="number">
+        </p>
+
+        <input type="submit" value="Calculate" onclick="Calculate()">
+  
+        <h2 id="total"></h2>
+    </div>
+  
+    <script src="app.js"></script>
+</body>
+  
+</html>
